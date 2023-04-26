@@ -1,4 +1,4 @@
-# sxt/contracts
+# spaceandtime/contracts
 SxT Contracts | Public Chainlink Contracts
 
 This repository has all the public contracts available via npm module.

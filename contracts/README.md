@@ -1,4 +1,4 @@
-# sxt/contracts
+# spaceandtime/contracts
 SxT Contracts | Public Chainlink Contracts
 
 This repository has all the public contracts available via npm module.
@@ -7,13 +7,13 @@ If you wish to use the Space and Time smart contracts to send data to your smart
 
 ```sh
 # via npm
-$ npm install @sxt/contracts --save
+$ npm install @spaceandtime/contracts --save
 ```
 
 ### Directory Structure
 
 ```sh
-@sxt/contracts
+@spaceandtime/contracts
 ├── direct-request # Direct Request smart contracts
 │   ├── interfaces
 │   ├── UserRequest.sol
@@ -26,12 +26,12 @@ $ npm install @sxt/contracts --save
 
 ### Usage
 
-The solidity smart contracts themselves can be imported via the `direct-request` and `functions` directory of `@sxt/contracts`:
+The solidity smart contracts themselves can be imported via the `direct-request` and `functions` directory of `@spaceandtime/contracts`:
 
 ```solidity
-import '@sxt/contracts/direct-request/UserRequest.sol';
+import '@spaceandtime/contracts/direct-request/UserRequest.sol';
 
-import '@sxt/contracts/functions/FunctionsClient.sol';
+import '@spaceandtime/contracts/functions/FunctionsClient.sol';
 ```
 
 ## License
