@@ -1,0 +1,24 @@
+{
+  "name": "@lmllml/contracts",
+  "version": "1.0.0",
+  "description": "SxT Smart Contracts to be used via Chainlink Functions and Direct Request for the smart contracts that work on the chainlink contracts",
+  "main": "contracts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spaceandtimelabs/w3-shared-contracts.git"
+  },
+  "keywords": ["chainlink","chainlink functions","chainlink direct request","openzeppelin","space and time","ethereum","solidity","blockchain"],
+  "author": "Space and Time Devs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spaceandtimelabs/w3-shared-contracts/issues"
+  },
+  "homepage": "https://github.com/spaceandtimelabs/w3-shared-contracts#readme",
+  "devDependencies": {
+    "@chainlink/contracts": "^0.6.1",
+    "@openzeppelin/contracts": "^4.8.0"
+  }
+}
