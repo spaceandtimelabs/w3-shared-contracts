@@ -107,13 +107,13 @@ interface ISxTRelay {
 
     /**
      * @dev Execute the request view and response type as string2D
-     * @param viewName - view name requested by User contract
+     * @param viewId - view id requested by User contract
      * @param callerContract - User contract address that called this requestQuery function
      * @param callbackFunctionId - User contract callback function selector id
      * @param chainlinkJobId - Chainlink Job ID that SxT team has created on the Chainlink Oracle Node
      */
     function requestViewString2D(
-        string memory viewName, 
+        string memory viewId, 
         address callerContract, 
         bytes4 callbackFunctionId,
         string memory chainlinkJobId
@@ -121,13 +121,13 @@ interface ISxTRelay {
 
     /**
      * @dev Execute the request view and response type as uint256
-     * @param viewName - view name requested by User contract
+     * @param viewId - view id requested by User contract
      * @param callerContract - User contract address that called this requestQuery function
      * @param callbackFunctionId - User contract callback function selector id
      * @param chainlinkJobId - Chainlink Job ID that SxT team has created on the Chainlink Oracle Node
      */
     function requestViewUint256(
-        string memory viewName, 
+        string memory viewId, 
         address callerContract, 
         bytes4 callbackFunctionId,
         string memory chainlinkJobId
@@ -135,13 +135,13 @@ interface ISxTRelay {
 
     /**
      * @dev Execute the request view and response type as bytes
-     * @param viewName - view name requested by User contract
+     * @param viewId - view id requested by User contract
      * @param callerContract - User contract address that called this requestQuery function
      * @param callbackFunctionId - User contract callback function selector id
      * @param chainlinkJobId - Chainlink Job ID that SxT team has created on the Chainlink Oracle Node
      */
     function requestViewBytes(
-        string memory viewName, 
+        string memory viewId, 
         address callerContract, 
         bytes4 callbackFunctionId,
         string memory chainlinkJobId
@@ -149,13 +149,13 @@ interface ISxTRelay {
 
     /**
      * @dev Execute the request view and response type as string
-     * @param viewName - view name requested by User contract
+     * @param viewId - view id requested by User contract
      * @param callerContract - User contract address that called this requestQuery function
      * @param callbackFunctionId - User contract callback function selector id
      * @param chainlinkJobId - Chainlink Job ID that SxT team has created on the Chainlink Oracle Node
      */
     function requestViewString(
-        string memory viewName, 
+        string memory viewId, 
         address callerContract, 
         bytes4 callbackFunctionId,
         string memory chainlinkJobId
